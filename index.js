@@ -52,7 +52,7 @@ otware.prototype._run = function(){
 		a.push(done);
 		this.busy = true;
 		
-		debug('run ware');
+		debug('ware run');
 		
 		w.run.apply(w,a);
 	}
