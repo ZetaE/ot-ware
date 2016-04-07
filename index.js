@@ -12,7 +12,7 @@ var otware = function(o){
 };
 
 otware.prototype.run = function(){
-	var args = Array.prototype.slice.call(arguments);
+	var args = slice.call(arguments);
 	var q = this.queue
 	q.push(args);
 	this._run();
