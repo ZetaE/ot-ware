@@ -1,10 +1,15 @@
 # ot-ware
 one at time middle(ware) layer.
 
-###why?
+##why?
 in one of my projects i needed to have a middleware whose run functions block were executable one at time.
 
-###usage
+##installation
+```bash
+$ npm install otware
+```
+
+##usage
 ```javascript
 var otware = require('otware');
 var middleware = otware()
@@ -32,8 +37,5 @@ middleware.run({}, {}, function (err, req, res) {
   res.y; // "world"
 });
 ```
-
-###installation
-
 
 
